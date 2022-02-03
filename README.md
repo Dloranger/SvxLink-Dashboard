@@ -7,11 +7,11 @@
     A simple dashboard for an SvxLink server!
     <br />
     <br />
-    <a href="http://svxlink.kc1awv.net:8080/index.php">View Demo</a>
+    <a href="">View Demo</a>
     ·
-    <a href="https://github.com/kc1awv/SvxLink-Dashboard/issues">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/kc1awv/SvxLink-Dashboard/issues">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </p>
 
@@ -29,15 +29,14 @@
 
 ## About The Project
 
-This project aims to provide a simple dashboard for [SvxLink](https://www.svxlink.org) to monitor the system status, module status, and log viewing.
+This project aims to provide a simple dashboard for TalkGroups on [SvxLink](https://www.svxlink.org) to monitor the system status, module status, and log viewing.
 
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [PHP](https://www.php.net)
 
-#### Also a lot of borrowed code from
-* [YSFReflector-Dashboard](https://github.com/dg9vh/YSFReflector-Dashboard)
+#### Also a lot of borrowed code 
 
 ## Getting Started
 
@@ -52,7 +51,7 @@ This should be as simple as cloning the repo into your webserver, editing the co
 
 1. Clone the repo to your webserver
 ```sh
-git clone https://github.com/kc1awv/SvxLink-Dashboard.git
+git clone https://github.com/f5vmr/SvxLink-Dashboard.git
 ```
 2. Edit the constants in config/config.php to suit your install
 3. ?????
@@ -60,7 +59,7 @@ git clone https://github.com/kc1awv/SvxLink-Dashboard.git
 
 ## Roadmap
 
-See the [open issues](https://github.com/kc1awv/SvxLink-Dashboard/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/f5vmr/SvxLink-Dashboard/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
@@ -78,6 +77,6 @@ Distributed under the GPL 3.0 License. See `LICENSE` for more information.
 
 ## Contact
 
-Steve Miller - smiller@kc1awv.net
+Chris Jackson g4nab.ne63@gmail.com
 
-Project Link: [https://github.com/kc1awv/SvxLink-Dashboard](https://github.com/kc1awv/SvxLink-Dashboard)
+Project Link: [https://github.com/f5vmr/SvxLink-Dashboard](https://github.com/f5vmr/SvxLink-Dashboard)
