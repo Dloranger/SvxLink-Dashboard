@@ -30,7 +30,7 @@ function getGitVersion(){
 	// retrieves the current Git version of the dashboard, if available
 	if (file_exists(".git")) {
 		exec("git rev-parse --short HEAD", $output);
-		return 'GitID #<a href="https://github.com/kc1awv/SvxLink-Dashboard/commit/'.$output[0].'" target="_blank">'.$output[0].'</a>';
+		return 'GitID #<a href="https://github.com/f5vmr/SvxLink-Dashboard/commit/'.$output[0].'" target="_blank">'.$output[0].'</a>';
 	} else {
 		return 'GitID unknown';
 	}
