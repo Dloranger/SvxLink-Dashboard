@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('UK,London');
+date_default_timezone_set("UK,London");
 define("CONTACTEMAIL", "g4nab.ne63@gmail.com");
 define("SVXLOGPATH", "/var/log");
 define("SVXLOGPREFIX", "svxlink.log");
