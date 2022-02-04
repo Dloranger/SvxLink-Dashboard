@@ -7,7 +7,7 @@ define("SVXCONFPATH", "/etc/svxlink");
 define("SVXCONFFILENAME", "svxlink.conf");
 define("SVXLINKPATH", "/usr/bin");
 define("SVXLOGICSECTION", "SimplexLogic");
-define("SVXMODULES", array('EchoLink'));
+define("SVXMODULES", array(''));
 define("TIMEZONE", "UK/London");
 define("REFRESHAFTER", "30");
 define("SHOWPROGRESSBARS", "on");
