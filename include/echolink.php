@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col">
       <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header bg-primary text-light">
           Echolink User Count
         </div>
         <div id="elgauge"></div>
@@ -11,7 +11,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <div class="card-header">Connected Echolink Stations
+        <div class="card-header bg-primary text-light">Connected Echolink Stations
         </div>
         <div class="table-responsive">
           <table id="echolink" class="table table-condensed">
