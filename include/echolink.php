@@ -1,7 +1,7 @@
 <?php
 ?>
 <div class="row">
-    <div class="col 2">
+    <div class="col">
       <div class="card text-center">
         <div class="card-header bg-primary text-light">
           Echolink User Count
@@ -9,7 +9,7 @@
         <div id="elgauge"></div>
       </div>
     </div>
-    <div class="col 2">
+    <div class="col">
       <div class="card">
         <div class="card-header bg-primary text-light">Connected Echolink Stations
         </div>
