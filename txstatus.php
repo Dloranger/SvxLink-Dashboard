@@ -3,7 +3,6 @@
 include "config/config.php";
 include "include/tools.php";
 include "include/functions.php";
-include "include/bootstrap.css";
 
 $configs = getSvxConfig();
 $txStatus = getSvxTXLines();
