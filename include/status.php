@@ -1,7 +1,7 @@
 <?php
 ?>
   <div class="card">
-    <div class="card-header bg-primary">
+    <div class="card-header bg-primary text-light">
       Module Status
     </div>
     <div class="table-responsive">
