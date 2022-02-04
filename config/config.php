@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set("UK,London");
+date_default_timezone_set('UK/London');
 define("CONTACTEMAIL", "g4nab.ne63@gmail.com");
 define("SVXLOGPATH", "/var/log");
 define("SVXLOGPREFIX", "svxlink.log");
@@ -8,7 +8,7 @@ define("SVXCONFFILENAME", "svxlink.conf");
 define("SVXLINKPATH", "/usr/bin");
 define("SVXLOGICSECTION", "SimplexLogic");
 define("SVXMODULES", array("EchoLink","Parrot","MetarInfo"));
-define("TIMEZONE", "UK,London");
+define("TIMEZONE", "UK/London");
 define("REFRESHAFTER", "30");
 define("SHOWPROGRESSBARS", "on");
 define("SHOWOLDMHEARD", "60");
