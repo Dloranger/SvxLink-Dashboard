@@ -15,5 +15,6 @@ define("SHOWOLDMHEARD", "60");
 define("TEMPERATUREALERT", "on");
 define("TEMPERATUREHIGHLEVEL", "85");
 define("SHOWQRZ", "on");
+
 ?>
 
