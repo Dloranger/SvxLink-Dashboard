@@ -5,13 +5,14 @@ $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $start = $time;
 header("Cache-Control: no-cache, must-revalidate");
-header("Expires: Sat, 31 Dec 2022 05:00:00 GMT");
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 // do not touch these includes!
 include "config/config.php";
 include "include/tools.php";
 include "include/functions.php";
 include "include/init.php";
 include "version.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -28,16 +29,16 @@ include "version.php";
   <title>SvxLink Dashboard for <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="include/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand">SvxLink Dashboard - <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></a>
+      <a class="navbar-brand" href="#">SvxLink Dashboard - <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,7 +83,7 @@ include "version.php";
   </div>
 
   <footer class="footer-copyright">
-    <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
+    <span class="navbar navbar-dark bg-dark fixed-bottom text-muted">
       <div class="container-fluid">
         <span class="float:left;">
           <?php
@@ -98,7 +99,7 @@ include "version.php";
           ?>
         </span>
         <span class="float:right;">
-          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="">g4nab.co.uk</a>.</strong> All rights reserved.
+          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https://kc1awv.net">kc1awv.net</a>.</strong> All rights reserved.
         </span>
       </div>
     </span>
@@ -115,4 +116,3 @@ include "version.php";
 </body>
 
 </html>
-  
