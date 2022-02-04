@@ -35,7 +35,7 @@ include "version.php";
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-blue static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger static-top">
     <div class="container">
       <a class="navbar-brand">SvxLink Dashboard - <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +82,7 @@ include "version.php";
   </div>
 
   <footer class="footer-copyright">
-    <span class="navbar navbar-dark bg-blue fixed-bottom text-muted">
+    <span class="navbar navbar-dark bg-danger fixed-bottom text-muted">
       <div class="container-fluid">
         <span class="float:left;">
           <?php
