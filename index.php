@@ -5,7 +5,7 @@ $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $start = $time;
 header("Cache-Control: no-cache, must-revalidate");
-header("Expires: Sat, 31 Dec 2022 05:00:00 GMT");
+header("Expires: Tue, 1 Feb 2022 05:00:00 GMT");
 // do not touch these includes!
 include "config/config.php";
 include "include/tools.php";
