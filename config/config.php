@@ -8,7 +8,7 @@ define("SVXCONFFILENAME", "svxlink.conf");
 define("SVXLINKPATH", "/usr/bin");
 define("SVXLOGICSECTION", "SimplexLogic");
 define("SVXMODULES", array('EchoLink', 'Parrot', 'TclVoiceMail'));
-define("TIMEZONE", "America/New_York");
+define("TIMEZONE", "United Kingdom,London");
 define("REFRESHAFTER", "60");
 define("SHOWPROGRESSBARS", "on");
 define("SHOWOLDMHEARD", "60");
