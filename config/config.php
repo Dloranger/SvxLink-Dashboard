@@ -9,7 +9,7 @@ define("SVXLINKPATH", "/usr/bin");
 define("SVXLOGICSECTION", "SimplexLogic");
 define("SVXMODULES", array('EchoLink', 'Parrot', 'MetarInfo'));
 define("TIMEZONE", "United Kingdom,London");
-define("REFRESHAFTER", "60");
+define("REFRESHAFTER", "30");
 define("SHOWPROGRESSBARS", "on");
 define("SHOWOLDMHEARD", "60");
 define("TEMPERATUREALERT", "on");
