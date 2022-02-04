@@ -12,7 +12,6 @@ include "include/tools.php";
 include "include/functions.php";
 include "include/init.php";
 include "version.php";
-include "include/bootstrap.css";
 ?>
 
 <!DOCTYPE html>
@@ -99,7 +98,7 @@ include "include/bootstrap.css";
           ?>
         </span>
         <span class="float:right;">
-          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https://kc1awv.net">kc1awv.net</a>.</strong> All rights reserved.
+          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https://g4nab.co.uk">g4nab.co.uk</a>.</strong> All rights reserved.
         </span>
       </div>
     </span>
