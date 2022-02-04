@@ -8,7 +8,7 @@ define("SVXCONFFILENAME", "svxlink.conf");
 define("SVXLINKPATH", "/usr/bin");
 define("SVXLOGICSECTION", "SimplexLogic");
 define("SVXMODULES", array("EchoLink","Parrot","MetarInfo"));
-define("TIMEZONE", "United Kingdom,London");
+define("TIMEZONE", "UK,London");
 define("REFRESHAFTER", "30");
 define("SHOWPROGRESSBARS", "on");
 define("SHOWOLDMHEARD", "60");
