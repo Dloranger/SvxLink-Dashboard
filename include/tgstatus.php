@@ -1,6 +1,6 @@
   <div class="card">
     <div class="card-header bg-primary text-light">
-      Transmitter Status
+      TalkGroup Status
     </div>
     <div class="table-responsive">
       <table id="currtx" class="table table-condensed table-striped table-hover">
