@@ -47,40 +47,14 @@ function getSvxLog() {
         }
         return $logLines;
 }
-/*function getSvxTGLines() {
-	// returns the SvxLink transmitter log lines
-	$logPath = SVXLOGPATH."/".SVXLOGPREFIX;
-	$logLines = `egrep -h "Selecting" $logPath | tail -1`;
-	return $logLines;*/
-}
+
 function getSvxTXLines() {
 	// returns the SvxLink transmitter log lines
 	$logPath = SVXLOGPATH."/".SVXLOGPREFIX;
 	$logLines = `egrep -h "transmitter" $logPath | tail -1`;
 	return $logLines;
 }
-/*
-function getConnectedTalkGroup($logLines) {
-	$tgline = Array();
-	foreach ($logLines as $logline) {
-		if(strpos($logLine,"ReflectorLogic:")){
-			$tgline = Array();
-		}
-		if(strpos($logLine,"TG #")){
-			$lineParts = explode(" ", $logLine);
-			if (!array_search($lineParts[5], $tg)) {
-				array_push($tg, Array('TalkGroup')=>substr($lineParts[5],0,-1),'timestamp'=>substr($logLine),0,24)));
-			}
-		}
-		if(strpos($logLine,"Talker")) {
-			$lineParts = explode(" ", $logLine);
-			$pos = array_search(substr($lineParts[5],0,-1), $tg$);
-			array_splice($tg, $pos, 1);
-		}
-	}
-	return $tg;
-}
-*/
+
 function getConnectedEcholink($logLines) {
 	// retrieves the current EchoLink users connected to the SvxLink
         $users = Array();
