@@ -7,7 +7,7 @@ $configs = getSvxConfig();
 $tgStatus = getSvxTGLines();
 
 //if (strpos($tgStatus,"ON")) {
-//	echo "<tr><td class=\"table-danger text-center\">ON</td></tr>";
+echo "<tr><td class=\"table-danger text-center\".$tgStatus./td></tr>";
 //} else {
 //	echo "<tr><td class=\"table-success text-center\">OFF</td></tr>";
 //}
