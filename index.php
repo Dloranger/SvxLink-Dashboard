@@ -83,7 +83,7 @@ include "version.php";
   </div>
   <div class="container-fluid">
     <div class="row">
-    <b>Holding for Talkgroups</b>
+    <?php include "include/tgstatus.php"; ?>
     </div>
   </div>
   <div class="container-fluid">
