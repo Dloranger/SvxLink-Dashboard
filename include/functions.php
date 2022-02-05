@@ -98,7 +98,7 @@ function getActiveModules($logLines) {
         foreach ($logLines as $logLine) {
                 if(strpos($logLine,"Activating module")) {
                         $lineParts = explode(" ", $logLine);
-			$modul = substr($lineParts[8],0,-4);
+			$modul = substr($lineParts[9],0,-4);
                         if (!array_search($modul, $modules)) {
                                 $modules[$modul] = 'On';
                         }
