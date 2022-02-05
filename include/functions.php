@@ -47,7 +47,12 @@ function getSvxLog() {
         }
         return $logLines;
 }
-
+function getSvxTGLines() {
+	// returns the SvxLink transmitter log lines
+	$logPath = SVXLOGPATH."/".SVXLOGPREFIX;
+	$logLines = `egrep -h "ReflectorLogic:" $logPath | tail -1`;
+	return $logLines;
+}
 function getSvxTXLines() {
 	// returns the SvxLink transmitter log lines
 	$logPath = SVXLOGPATH."/".SVXLOGPREFIX;
