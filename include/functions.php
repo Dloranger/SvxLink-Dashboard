@@ -78,7 +78,8 @@ function getSvxTXLines() {
 		}
 	}
 	return $tg;
-}*/
+}
+*/
 function getConnectedEcholink($logLines) {
 	// retrieves the current EchoLink users connected to the SvxLink
         $users = Array();
