@@ -1,4 +1,5 @@
-  <div class="card">
+  <!--
+   <div class="card">
     <div class="card-header bg-primary text-light">
       TalkGroup Status
     </div>
@@ -52,3 +53,4 @@
   }
   loadXMLDoc();
   </script>
+-->
