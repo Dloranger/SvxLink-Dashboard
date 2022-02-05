@@ -62,7 +62,7 @@ include "version.php";
   <?php checkSetup(); ?>
   <div class="container-fluid">
       <?php
-        //include "include/logs.php";
+        include "include/logs.php";
       ?>
   </div>
 
