@@ -1,6 +1,6 @@
 <?php
 
-include "config/config.php";
+/*include "config/config.php";
 include "include/tools.php";
 include "include/functions.php";
 
@@ -12,5 +12,5 @@ if (strpos($tgStatus,"ON")) {
 } else {
 	echo "<tr><td class=\"table-success text-center\">OFF</td></tr>";
 }
-
+*/
 ?>
