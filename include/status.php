@@ -9,7 +9,6 @@
         <thead>
           <tr class="text-center">
 <?php
-	$modules="";
         $modules = getActiveModules($logLines);
 	foreach (array_keys($modules) as $module) {
 		echo "<th>".$module." Module</th>";
