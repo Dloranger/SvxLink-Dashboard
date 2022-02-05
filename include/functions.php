@@ -59,7 +59,8 @@ function getSvxTXLines() {
 	$logLines = `egrep -h "transmitter" $logPath | tail -1`;
 	return $logLines;
 }
-/*function getConnectedTalkGroup($logLines) {
+/*
+function getConnectedTalkGroup($logLines) {
 	$tgline = Array();
 	foreach ($logLines as $logline) {
 		if(strpos($logLine,"ReflectorLogic:")){
