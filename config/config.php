@@ -11,7 +11,7 @@ define("SVXMODULES", array('Parrot','EchoLink','MetarInfo'));
 define("TIMEZONE", "UK/London");
 define("REFRESHAFTER", "10");
 define("SHOWPROGRESSBARS", "on");
-define("SHOWOLDMHEARD", "60");
+define("SHOWOLDMHEARD", "30");
 define("TEMPERATUREALERT", "on");
 define("TEMPERATUREHIGHLEVEL", "85");
 define("SHOWQRZ", "on");
