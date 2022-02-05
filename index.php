@@ -81,9 +81,11 @@ include "version.php";
       </div>
     </div>
   </div>
-    <div class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
     <b>Holding for Talkgroups</b>
-  </div> 
+    </div>
+  </div>
   <div class="container-fluid">
     <?php include "include/echolink.php"; ?>
   </div>
