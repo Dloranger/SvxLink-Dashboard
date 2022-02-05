@@ -49,6 +49,8 @@ include "version.php";
           </li>
           <li class="nav-item">
             <a class="nav-link" href="log.php">Log</a>
+          <li class="nav-item">
+            <a class="nav-link" href="">Intialise (not yet operational)</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="mailto:<?php echo CONTACTEMAIL ?>">Contact</a>
