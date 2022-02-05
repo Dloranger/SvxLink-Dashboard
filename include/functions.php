@@ -50,7 +50,7 @@ function getSvxLog() {
 function getSvxTGLines() {
 	// returns the SvxLink transmitter log lines
 	$logPath = SVXLOGPATH."/".SVXLOGPREFIX;
-	$logLines = `egrep -h "selecting" $logPath | tail -1`;
+	$logLines = `egrep -h "Selecting" $logPath | tail -1`;
 	return $logLines;
 }
 function getSvxTXLines() {
