@@ -84,7 +84,9 @@ include "version.php";
   <div class="container-fluid">
     <?php include "include/echolink.php"; ?>
   </div>
-
+  <div class="container-fluid">
+    <b>Holding for Talkgroups</b>
+  </div>  
   <footer class="footer-copyright">
     <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
       <div class="container-fluid">
