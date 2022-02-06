@@ -14,7 +14,7 @@
       </table>
     </div>
   </div>
-<!--  <script>	  
+<script>	  
   function doXMLHTTPRequest(scriptname, elem) {
 	var xmlhttp;
 	if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -52,4 +52,3 @@
   }
   loadXMLDoc();
   </script>
--->
