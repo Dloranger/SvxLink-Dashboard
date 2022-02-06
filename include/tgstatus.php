@@ -10,6 +10,13 @@
           </tr>
         </thead>
         <tbody id="tgline">
+	<?php
+		$logLines = getSvxLog();
+	$reverseLogLines = $logLines;
+	array_multisort($reverseLogLines,SORT_DESC);
+	foreach ($reverseLogLines as $logLine) {
+		echo $logLine;
+	}
         </tbody>
       </table>
     </div>
