@@ -59,7 +59,27 @@ function getSvxTXLines() {
 	$logLines = `egrep -h "transmitter" $logPath | tail -1`;
 	return $logLines;
 }
-
+function getTalkGroup($logLines)
+	// retrieves the current ReflectorLogic Line 
+	        $users = Array();
+        foreach ($logLines as $logLine) {
+                if(strpos($logLine,"ReflectorLogic:")){
+                        $users = Array();
+                }
+                if(strpos($logLine,"Selecting TG #")) {
+                        $lineParts = explode(" ", $logLine);
+			if (!array_search($lineParts[5], $users)) {
+                                array_push($users, Array('TalkGroup'=>substr($lineParts[5],0,-1),'timestamp'=>substr($logLine,0,24)));
+                        }
+                }
+                if(strpos($logLine,"state changed to DISCONNECTED")) {
+                        $lineParts = explode(" ", $logLine);
+			$pos = array_search(substr($lineParts[5],0,-1), $users);
+			array_splice($users, $pos, 1);
+                }
+        }
+        return $users;
+}
 function getConnectedEcholink($logLines) {
 	// retrieves the current EchoLink users connected to the SvxLink
         $users = Array();
