@@ -15,7 +15,8 @@
 	$reverseLogLines = $logLines;
 	array_multisort($reverseLogLines,SORT_DESC);
 	foreach ($reverseLogLines as $logLine) {
-	$tgstatus = getSvxTg		
+	echo $tgStatus = getSvxTGLines();
+	
 	}
 	?>
         </tbody>
