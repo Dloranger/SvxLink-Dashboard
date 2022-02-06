@@ -69,10 +69,15 @@ function getTalkGroup($logLines)
                 if(strpos($logLine,"Selecting TG #")) {
                         $lineParts = explode(" ", $logLine);
 			if (!array_search($lineParts[5], $users)) {
-                                array_push($users, Array('TalkGroup'=>substr($lineParts[5],0,-1),'timestamp'=>substr($logLine,0,24)));
+                                //array_push($users, Array('TalkGroup'=>substr($lineParts[5],0,-1),'timestamp'=>substr($logLine,0,24)));
                         }
                 }
-                if(strpos($logLine,"state changed to DISCONNECTED")) {
+                if(strpos($logLine,"Talker start on ")) {
+                        $lineParts = explode(" ", $logLine);
+			$pos = array_search(substr($lineParts[5],0,-1), $users);
+			array_splice($users, $pos, 1);
+                }
+		if(strpos($logLine,"Talker stop on")) {
                         $lineParts = explode(" ", $logLine);
 			$pos = array_search(substr($lineParts[5],0,-1), $users);
 			array_splice($users, $pos, 1);
