@@ -11,6 +11,9 @@
         </thead>
         <tbody id="tgline">
         </tbody>
+	<tbody>
+	Talkgroup Activity
+	</tbody>
       </table>
     </div>
   </div>
