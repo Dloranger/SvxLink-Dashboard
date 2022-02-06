@@ -29,7 +29,7 @@ include "version.php";
   <title>SvxLink Dashboard for <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="bootstrap.css"
+  <link rel="stylesheet" href="include/bootstrap.css"
 </head>
 
 <body>
