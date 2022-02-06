@@ -11,10 +11,10 @@
         </thead>
         <tbody id="tgline">
 	<?php
-	/*	$logLines = getSvxLog();
+	$logLines = getSvxLog();
 	$reverseLogLines = $logLines;
 	array_multisort($reverseLogLines,SORT_DESC);
-	foreach ($reverseLogLines as $logLine) {*/
+	foreach ($reverseLogLines as $logLine) {
 	//echo $tgStatus = getTalkGroup($logLines);
 	
 	}
