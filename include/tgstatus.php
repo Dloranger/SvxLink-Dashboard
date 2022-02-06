@@ -17,6 +17,7 @@
 	foreach ($reverseLogLines as $logLine) {
 		echo $logLine;
 	}
+	?>
         </tbody>
       </table>
     </div>
