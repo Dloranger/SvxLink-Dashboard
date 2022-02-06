@@ -59,6 +59,7 @@ function getSvxTXLines() {
 	$logLines = `egrep -h "transmitter" $logPath | tail -1`;
 	return $logLines;
 }
+/*
 function getTalkGroup($logLines)
 	// retrieves the current ReflectorLogic Line 
 	        $users = Array();
@@ -84,7 +85,7 @@ function getTalkGroup($logLines)
                 }
         }
         return $users;
-}
+}*/
 function getConnectedEcholink($logLines) {
 	// retrieves the current EchoLink users connected to the SvxLink
         $users = Array();
