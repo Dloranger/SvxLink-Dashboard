@@ -15,7 +15,7 @@
 	$reverseLogLines = $logLines;
 	array_multisort($reverseLogLines,SORT_DESC);
 	foreach ($reverseLogLines as $logLine) {
-	echo $tgStatus = getTalkGroup($logLines);
+	//echo $tgStatus = getTalkGroup($logLines);
 	
 	}
 	?>
